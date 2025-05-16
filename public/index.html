@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Blog Editor</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Blog Editor</h1>
+    <input type="text" id="title" placeholder="Blog Title" />
+    <textarea id="content" placeholder="Write your content here..."></textarea>
+    <input type="text" id="tags" placeholder="Tags (comma-separated)" />
+    <div class="buttons">
+      <button onclick="saveDraft()">💾 Save Draft</button>
+      <button onclick="publishBlog()">🚀 Publish</button>
+      <span id="autosave-msg"></span>
+    </div>
+    <hr />
+    <h2>Published Blogs</h2>
+    <div id="published-list"></div>
+    <h2>Drafts</h2>
+    <div id="draft-list"></div>
+  </div>
+ 
+<script src="script.js" defer></script>
+
+</body>
+</html>

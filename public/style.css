@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f9f9f9;
+  margin: 0;
+  padding: 20px;
+}
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+textarea {
+  height: 150px;
+}
+.buttons {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+button {
+  padding: 10px 20px;
+  background: #3498db;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+button:hover {
+  background: #2980b9;
+}
+#autosave-msg {
+  color: green;
+  font-size: 0.9em;
+}
+.blog-item {
+  background: white;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+.blog-item h3 {
+  margin: 0;
+}
+.blog-item .meta {
+  font-size: 0.8em;
+  color: gray;
+}
